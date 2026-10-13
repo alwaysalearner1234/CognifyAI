@@ -1,0 +1,90 @@
+{
+ "rag": {
+  "n": 7,
+  "context_precision": 1.0,
+  "context_recall": 1.0,
+  "faithfulness": 0.895,
+  "answer_relevancy": 0.135,
+  "rows": [
+   {
+    "q": "State Newton's second law and give the formula.",
+    "grounded": true,
+    "faithfulness": 0.9,
+    "relevancy": 0.089,
+    "ctx_hit": true
+   },
+   {
+    "q": "How do static and kinetic friction differ on an inclined plane?",
+    "grounded": true,
+    "faithfulness": 0.9,
+    "relevancy": 0.145,
+    "ctx_hit": true
+   },
+   {
+    "q": "State the work-energy theorem.",
+    "grounded": true,
+    "faithfulness": 0.9,
+    "relevancy": 0.257,
+    "ctx_hit": true
+   },
+   {
+    "q": "What is the range formula for projectile motion on level ground?",
+    "grounded": true,
+    "faithfulness": 0.875,
+    "relevancy": 0.13,
+    "ctx_hit": true
+   },
+   {
+    "q": "A 2 kg block on a 30-degree incline: set up the normal force equation.",
+    "grounded": true,
+    "faithfulness": 0.9,
+    "relevancy": 0.055,
+    "ctx_hit": true
+   },
+   {
+    "q": "Explain quantum entanglement and Bell's inequality in detail.",
+    "refused": true,
+    "pass": true
+   },
+   {
+    "q": "Who won the 2024 cricket world cup and what were the scores?",
+    "refused": true,
+    "pass": true
+   }
+  ]
+ },
+ "sim": {
+  "fast": {
+   "mastery_gain": 0.689,
+   "final_mastery": 0.989,
+   "topics": {
+    "Newton's Laws": 0.9858,
+    "Friction": 0.99,
+    "Work, Energy & Power": 0.99,
+    "Vectors & Kinematics": 0.99
+   }
+  },
+  "average": {
+   "mastery_gain": 0.592,
+   "final_mastery": 0.892,
+   "topics": {
+    "Work, Energy & Power": 0.6045,
+    "Vectors & Kinematics": 0.9878,
+    "Newton's Laws": 0.9884,
+    "Friction": 0.9858
+   }
+  },
+  "struggling": {
+   "mastery_gain": 0.052,
+   "final_mastery": 0.352,
+   "topics": {
+    "Newton's Laws": 0.8867,
+    "Friction": 0.1715,
+    "Vectors & Kinematics": 0.1743,
+    "Work, Energy & Power": 0.1747
+   }
+  },
+  "question_repetition_rate": 0.0,
+  "sessions": 5
+ }
+}
